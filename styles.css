@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-color: rgba(102, 189, 216, 0.877);
+    background: rgba(102, 189, 216, 0.877) url(https://vistapointe.net/images/patern-4.jpg);
+    background-blend-mode: multiply;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    background-color: rgb(233, 240, 248);
+    color: rgb(8, 77, 99);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    display: inline;
+    border: 1px solid rgb(8, 77, 99);
+    border-radius: 5px;
+    background-color: rgb(233, 240, 248);
+    color: rgb(8, 77, 99);
+    padding: 5px;
+
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(201, 196, 196);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    border: 8px double rgb(8, 77, 99);
+}
+
+tr {
+    height: 10px;
+}
+
+td {
+    width: 10px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+#subButt{
+ 
+    background-color: rgb(8, 77, 99);
+
+    color: white;
+
+}
+#sizePicker{
+    margin: 5px;
+    color: white;
+    font-size: bold;
+    background-color: rgb(8, 77, 99);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
