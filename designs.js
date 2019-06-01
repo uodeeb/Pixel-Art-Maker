@@ -1,5 +1,9 @@
 // track user color input
 let userColor
+// select neede variables
+let submit =document.getElementById("subButt")
+let canvas= document.getElementById("pixelCanvas")
+console.log(canvas)
 function changeColor(){
   let colorPicker= document.getElementById("colorPicker")
 userColor= colorPicker.value;
@@ -12,8 +16,11 @@ function colorPicker(){
   
 }
 // create the grid
+
 function tableOutPut(){
 
+  //reset the canvas grid
+canvas.innerHTML = "";
   // prevenet submit form default
   event.preventDefault();
 
@@ -48,12 +55,10 @@ function tableOutPut(){
   column.addEventListener("dblclick", function(e){
   column.style.backgroundColor = "";
 })
-document.getElementById("subButt").addEventListener("click", function(e){
-    column.style.backgroundColor = "";
-})
 
 }
 
 }
 
 }
+
